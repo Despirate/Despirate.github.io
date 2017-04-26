@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+body.colored {
+    background-color: #666699;
+}
+
+div.gallery img {
+    width: 40%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666699;
+	position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+h1 {
+  font-size: 150px;
+  color: Black;
+  text-align: center;
+  font-family: 'Tangerine';
+}
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+IMGS.
+
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+a:hover:not(.active) {
+    background-color: #ff33cc;
+}
+
+.active {
+background-color:#ff33cc;
+}
